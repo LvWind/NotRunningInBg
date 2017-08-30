@@ -27,7 +27,7 @@ import android.util.Log
 class NotifyListenerService : NotificationListenerService() {
     companion object {
         val TAG = "NotifyListenerService"
-        val DURATION: Long = 100000000000 //about 3 years
+        val DURATION: Long = 86400000 //a day
     }
 
     override fun onNotificationRemoved(sbn: StatusBarNotification?) {
@@ -52,5 +52,7 @@ class NotifyListenerService : NotificationListenerService() {
         } else {
             super.onNotificationPosted(sbn)
         }
+
+
     }
 }
