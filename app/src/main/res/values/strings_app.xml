@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="app_name">NotRunningInBG</string>
-	<string name="button_start">Start</string>
 	<string name="toast_enable_access">Please enable the Notification access for NotRunningInBg</string>
 	<string name="toggle_disabled">Disabled</string>/>
 	<string name="toggle_enabled">Enabled</string>/>

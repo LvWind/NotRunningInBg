@@ -1,5 +1,5 @@
 # NotRunningInBg
-![](https://raw.githubusercontent.com/LvWind/NotRunningInBg/master/art/logo.png)
+<img src="https://raw.githubusercontent.com/LvWind/NotRunningInBg/master/art/logo.png" width="150" height="150"/>
 
 This project is a tool to snooze the "App is Running in the Background" notifications on Android Oreo.
 
@@ -9,8 +9,9 @@ But we can use a [NotificationListenerService](https://developer.android.com/ref
 
 
 ## What you should know
-1. It Only works in en_US locale up to now.
-2. I haven't find a way to un-snooze the notify yet, uninstall it didn't work. And i'm working on it. If you have any idea please open a new issue.
+I haven't find a way to un-snooze the notify yet, uninstall it didn't work. And i'm working on it. If you have any idea please open a new issue.
+
+**So, you maybe will never see this notification again.**
 
 
 ## How to use
