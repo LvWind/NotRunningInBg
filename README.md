@@ -5,7 +5,7 @@ This is a tool that snoozes the "App is Running in the Background" notifications
 
 Judging by the relevent AOSP code ([updateForegroundApps()](https://github.com/android/platform_frameworks_base/blob/b056324630b8adfeb38393bcab49f3b9c720f4fd/services/core/java/com/android/server/am/ActiveServices.java#L790) in ActiveServices.java), there is no way for non-system app developers to suppress this notification when their apps are not on top. 
 
-However, a [NotificationListenerService](https://developer.android.com/reference/android/service/notification/NotificationListenerService.html#snoozeNotification) can be used to snooze this notification for an extended period of time.
+However, [NotificationListenerService](https://developer.android.com/reference/android/service/notification/NotificationListenerService.html#snoozeNotification) can be used to snooze this notification for an extended period of time.
 
 
 ## What you should know
