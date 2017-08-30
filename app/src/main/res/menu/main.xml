@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (c) 2017. Jason Shaw <lvwind.shaw@gmail.com>
   ~
@@ -17,14 +16,11 @@
   ~
   -->
 
-<resources>
-	<string name="app_name">NotRunningInBG</string>
-	<string name="button_start">Start</string>
-	<string name="toast_enable_access">Please enable the Notification access for NotRunningInBg</string>
-	<string name="toggle_disabled">Disabled</string>/>
-	<string name="toggle_enabled">Enabled</string>/>
-	<string name="guide_manually_snooze">You should manually snooze the \'Running in the background\' notification
-		first.
-	</string>
-	<string name="action_about">About</string>
-</resources>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+	<item android:id="@+id/action_about"
+	      android:title="@string/action_about"
+	      android:orderInCategory="100"
+	      android:showAsAction="always"/>
+</menu>

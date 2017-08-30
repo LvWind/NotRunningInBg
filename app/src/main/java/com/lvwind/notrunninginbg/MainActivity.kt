@@ -24,24 +24,57 @@ import android.content.Intent
 import android.os.Bundle
 import android.provider.Settings
 import android.text.TextUtils
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : Activity() {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        button.setOnClickListener {
-            if (!isEnabled()) {
-                startActivity(Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"))
+        switchButton.isChecked = PrefUtils.getBool(this, PrefUtils.KEY_ENABLED, false)
+        if (switchButton.isChecked) {
+            switchText.text = getString(R.string.toggle_enabled)
+        } else {
+            switchText.text = getString(R.string.toggle_disabled)
+        }
+
+        switchButton!!.setOnCheckedChangeListener { _, isChecked ->
+            PrefUtils.putBool(this, PrefUtils.KEY_ENABLED, isChecked)
+            if (isChecked) {
+                switchText.text = getString(R.string.toggle_enabled)
             } else {
-                Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
+                switchText.text = getString(R.string.toggle_disabled)
             }
+
         }
 
     }
 
+    override fun onResume() {
+        super.onResume()
+        getPermission()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val id = item.itemId
+
+        if (id == R.id.action_about) {
+            val intent = Intent(this, AboutActivity::class.java)
+            startActivity(intent)
+            return true
+        }
+
+        return super.onOptionsItemSelected(item)
+    }
 
     // check permissions
     private fun isEnabled(): Boolean {
@@ -60,6 +93,13 @@ class MainActivity : Activity() {
             }
         }
         return false
+    }
+
+    private fun getPermission() {
+        if (!isEnabled()) {
+            startActivity(Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"))
+            Toast.makeText(this, R.string.toast_enable_access, Toast.LENGTH_LONG).show()
+        }
     }
 
     private fun test() {

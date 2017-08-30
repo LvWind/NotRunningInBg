@@ -23,10 +23,41 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		tools:context="com.lvwind.notrunninginbg.MainActivity">
+	<RelativeLayout
+			android:id="@+id/toggle_bar"
+			android:layout_width="match_parent"
+			android:layout_height="56dp"
+			android:background="@color/colorToolbar">
+		<TextView android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:text="@string/toggle_disabled"
+		          android:id="@+id/switchText"
+		          android:textColor="@android:color/primary_text_dark"
+		          android:textSize="22sp"
+		          android:layout_centerVertical="true"
+		          android:layout_marginStart="16dp"/>
+		<Switch android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/switchButton"
+		        android:layout_centerVertical="true"
+		        android:layout_alignParentEnd="true" android:layout_marginEnd="16dp"/>
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+	                android:layout_below="@+id/toggle_bar"
+	                android:layout_alignParentStart="true" android:layout_marginStart="16dp"
+	                android:layout_marginEnd="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp">
+		<TextView android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:text="@string/guide_manually_snooze"
+		          android:id="@+id/text_guide"/>
+		<ImageView android:layout_width="match_parent"
+		           android:src="@drawable/step1"
+		           android:layout_below="@id/text_guide"
+		           android:id="@+id/image_step1" android:layout_height="150dp"/>
+		<ImageView android:layout_width="wrap_content" android:layout_height="120dp"
+		           android:src="@drawable/step2"
+		           android:layout_below="@id/image_step1"
+		           android:id="@+id/image_step2"/>
+	</RelativeLayout>
 
-	<Button
-			android:text="@string/button_start"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content" android:layout_centerVertical="true"
-			android:layout_centerHorizontal="true" android:id="@+id/button"/>
 </RelativeLayout>

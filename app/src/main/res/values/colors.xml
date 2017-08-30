@@ -18,13 +18,8 @@
   -->
 
 <resources>
-	<string name="app_name">NotRunningInBG</string>
-	<string name="button_start">Start</string>
-	<string name="toast_enable_access">Please enable the Notification access for NotRunningInBg</string>
-	<string name="toggle_disabled">Disabled</string>/>
-	<string name="toggle_enabled">Enabled</string>/>
-	<string name="guide_manually_snooze">You should manually snooze the \'Running in the background\' notification
-		first.
-	</string>
-	<string name="action_about">About</string>
+	<color name="colorToolbar">#607D8B</color>
+	<color name="colorPrimary">#607D8B</color>
+	<color name="colorPrimaryDark">#607D8B</color>
+	<color name="colorAccent">#607D8B</color>
 </resources>

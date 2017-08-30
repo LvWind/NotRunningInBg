@@ -43,9 +43,11 @@ class NotifyListenerService : NotificationListenerService() {
             Log.i(TAG, "Notification posted $notificationPkg & $notificationTitle & $notificationText")
         }
 
+        val enabled = PrefUtils.getBool(this, PrefUtils.KEY_ENABLED, false)
+
         val msg = getString(R.string.running_foreground_services_msg)
         //the Android System's package name is 'android'. weird!
-        if ((notificationPkg == "android") and (msg == notificationText)) {
+        if (enabled and (notificationPkg == "android") and (msg == notificationText)) {
             this.snoozeNotification(sbn?.key, DURATION)
         } else {
             super.onNotificationPosted(sbn)
