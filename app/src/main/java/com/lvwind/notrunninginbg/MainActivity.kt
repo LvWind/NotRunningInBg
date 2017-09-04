@@ -19,15 +19,19 @@
 package com.lvwind.notrunninginbg
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.ComponentName
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
+import android.support.customtabs.CustomTabsIntent
 import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+
 
 class MainActivity : Activity() {
 
@@ -47,7 +51,7 @@ class MainActivity : Activity() {
             if (isChecked) {
                 switchText.text = getString(R.string.toggle_enabled)
             } else {
-                switchText.text = getString(R.string.toggle_disabled)
+                disable()
             }
 
         }
@@ -68,8 +72,12 @@ class MainActivity : Activity() {
         val id = item.itemId
 
         if (id == R.id.action_about) {
-            val intent = Intent(this, AboutActivity::class.java)
-            startActivity(intent)
+            val url = "https://github.com/LvWind/NotRunningInBg/blob/master/README.md#notrunninginbg"
+            val builder = CustomTabsIntent.Builder()
+                    .setToolbarColor(resources.getColor(R.color.colorPrimary))
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(this, Uri.parse(url))
+
             return true
         }
 
@@ -102,8 +110,15 @@ class MainActivity : Activity() {
         }
     }
 
-    private fun test() {
+    private fun disable() {
+        switchText.text = getString(R.string.toggle_disabled)
 
+        val dialogBuilder = AlertDialog.Builder(this)
+        val dialog = dialogBuilder.setTitle(R.string.disable_dialog_title)
+                .setMessage(R.string.disable_dialog_message)
+                .setPositiveButton(android.R.string.ok, null)
+                .create()
+        dialog.show()
     }
 
 

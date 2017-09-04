@@ -22,7 +22,8 @@
 	<string name="toast_enable_access">请勾选启用本应用的通知使用权</string>
 	<string name="toggle_disabled">已停用</string>/>
 	<string name="toggle_enabled">已启用</string>/>
-	<string name="guide_manually_snooze">你需要手动延后\'在后台运行的应用\'通知一次
-	</string>
+	<string name="guide_manually_snooze">你需要手动延后\"在后台运行的应用\"通知一次，本程序将保持其延后</string>
 	<string name="action_about">关于</string>
+	<string name="disable_dialog_title">停止服务</string>
+	<string name="disable_dialog_message">服务已停止，需要重启设备才能重新显示\"在后台运行的应用\"通知</string>
 </resources>

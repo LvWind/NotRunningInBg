@@ -22,8 +22,12 @@
 	<string name="toast_enable_access">Please enable the Notification access for NotRunningInBg</string>
 	<string name="toggle_disabled">Disabled</string>/>
 	<string name="toggle_enabled">Enabled</string>/>
-	<string name="guide_manually_snooze">You should manually snooze the \'Running in the background\' notification
-		first.
+	<string name="guide_manually_snooze">You should manually snooze the \"Running in the background\" notification once.
+		The app will keep it snoozed afterwards.
 	</string>
 	<string name="action_about">About</string>
+	<string name="disable_dialog_title">Disable Service</string>
+	<string name="disable_dialog_message">Service disabled, You need to reboot your device to show the \'Running in the
+		background\' notification again.
+	</string>
 </resources>
