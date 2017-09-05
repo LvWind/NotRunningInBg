@@ -21,7 +21,6 @@
 	<string name="running_foreground_services_title" msgid="381024150898615683">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ರನ್
 		ಆಗುತ್ತಿವೆ"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"ಬ್ಯಾಟರಿ,ಡೇಟಾ ಬಳಕೆಯ ವಿವರಗಳಿಗಾಗಿ ಟ್ಯಾಪ್
-		ಮಾಡಿ"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"ಬ್ಯಾಟರಿ,ಡೇಟಾ ಬಳಕೆಯ ವಿವರಗಳಿಗಾಗಿ ಟ್ಯಾಪ್ ಮಾಡಿ"
 	</string>
 </resources>

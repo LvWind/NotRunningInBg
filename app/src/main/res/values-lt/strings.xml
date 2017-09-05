@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Programos, veikiančios fone"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Palieskite ir sužinokite išsamios
-		informacijos apie akumuliatoriaus bei duomenų naudojimą"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Palieskite ir sužinokite išsamios informacijos apie akumuliatoriaus bei duomenų naudojimą"
 	</string>
 </resources>

@@ -21,7 +21,6 @@
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Aplikasi yang sedang berjalan di latar
 		belakang"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Tap untuk melihat detail penggunaan
-		baterai dan data"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Tap untuk melihat detail penggunaan baterai dan data"
 	</string>
 </resources>

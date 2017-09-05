@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"ფონურ რეჟიმში გაშვებული აპები"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"შეეხეთ ბატარეისა და მონაცემების
-		მოხმარების შესახებ დეტალური ინფორმაციისთვის"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"შეეხეთ ბატარეისა და მონაცემების მოხმარების შესახებ დეტალური ინფორმაციისთვის"
 	</string>
 </resources>

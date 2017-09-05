@@ -21,7 +21,6 @@
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Aplicacions que s\'estan executant en
 		segon pla"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Toca per obtenir informació sobre l\'ús
-		de dades i de bateria"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Toca per obtenir informació sobre l\'ús de dades i de bateria"
 	</string>
 </resources>

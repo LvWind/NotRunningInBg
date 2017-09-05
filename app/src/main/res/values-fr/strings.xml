@@ -21,7 +21,6 @@
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Applications en cours d\'exécution en
 		arrière-plan"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Appuyer pour obtenir des informations
-		sur l\'utilisation de la batterie et des données"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Appuyer pour obtenir des informations sur l\'utilisation de la batterie et des données"
 	</string>
 </resources>

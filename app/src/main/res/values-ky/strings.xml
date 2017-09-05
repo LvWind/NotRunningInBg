@@ -20,7 +20,6 @@
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Фондо иштеп жаткан колдонмолор"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Батареянын кубаты жана трафиктин көлөмү
-		жөнүндө билүү үчүн таптап коюңуз"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Батареянын кубаты жана трафиктин көлөмү жөнүндө билүү үчүн таптап коюңуз"
 	</string>
 </resources>

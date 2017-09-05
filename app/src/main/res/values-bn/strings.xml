@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"পটভূমিতে অ্যাপ চালু আছে"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"ব্যাটারি এবং ডেটার ব্যবহারের বিশদ
-		বিবরণের জন্য ট্যাপ করুন"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"ব্যাটারি এবং ডেটার ব্যবহারের বিশদ বিবরণের জন্য ট্যাপ করুন"
 	</string>
 </resources>

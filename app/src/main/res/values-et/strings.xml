@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Rakendusi käitatakse taustal"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Aku ja andmekasutuse üksikasjade
-		nägemiseks puudutage"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Aku ja andmekasutuse üksikasjade nägemiseks puudutage"
 	</string>
 </resources>

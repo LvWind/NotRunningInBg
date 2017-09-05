@@ -21,7 +21,6 @@
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Apps, die im Hintergrund ausgeführt
 		werden"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Für Details zur Akku- und Datennutzung
-		tippen"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Für Details zur Akku- und Datennutzung tippen"
 	</string>
 </resources>
