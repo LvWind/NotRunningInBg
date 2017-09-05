@@ -20,7 +20,6 @@
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Апликације покренуте у позадини"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Додирните за детаље о батерији и
-		потрошњи података"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Додирните за детаље о батерији и потрошњи података"
 	</string>
 </resources>

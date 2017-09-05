@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Aplicațiile rulează în fundal"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Atingeți pentru mai multe detalii
-		privind bateria și utilizarea datelor"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Atingeți pentru mai multe detalii privind bateria și utilizarea datelor"
 	</string>
 </resources>

@@ -20,7 +20,6 @@
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"पृष्ठभूमिमा चल्ने अनुप्रयोगहरू"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"ब्याट्री र डेटाका प्रयोग सम्बन्धी
-		विवरणहरूका लागि ट्याप गर्नुहोस्"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"ब्याट्री र डेटाका प्रयोग सम्बन्धी विवरणहरूका लागि ट्याप गर्नुहोस्"
 	</string>
 </resources>

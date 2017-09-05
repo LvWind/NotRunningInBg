@@ -21,7 +21,6 @@
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Apps sendo executados em segundo
 		plano"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Tocar para ver detalhes sobre a bateria
-		e o uso de dados"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Tocar para ver detalhes sobre a bateria e o uso de dados"
 	</string>
 </resources>

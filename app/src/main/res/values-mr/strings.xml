@@ -20,7 +20,6 @@
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"अॅप्‍स बॅकग्राउंडमध्‍ये चालू आहेत"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"बॅटरी आणि डेटा वापराच्‍या तपशीलांसाठी
-		टॅप करा"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"बॅटरी आणि डेटा वापराच्‍या तपशीलांसाठी टॅप करा"
 	</string>
 </resources>

@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"පසුබිමින් ධාවනය වන යෙදුම්"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"බැටරි හා දත්ත භාවිතය පිළිබඳව විස්තර සඳහා
-		තට්ටු කරන්න"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"බැටරි හා දත්ත භාවිතය පිළිබඳව විස්තර සඳහා තට්ටු කරන්න"
 	</string>
 </resources>

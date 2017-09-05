@@ -20,7 +20,6 @@
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Апликациите се извршуваат во заднина"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Допрете за детали за батеријата и
-		потрошениот сообраќај"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Допрете за детали за батеријата и потрошениот сообраќај"
 	</string>
 </resources>

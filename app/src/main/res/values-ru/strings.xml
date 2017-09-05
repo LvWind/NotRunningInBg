@@ -21,7 +21,6 @@
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Приложения, работающие в фоновом
 		режиме"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Нажмите, чтобы проверить
-		энергопотребление и трафик"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Нажмите, чтобы проверить энергопотребление и трафик"
 	</string>
 </resources>

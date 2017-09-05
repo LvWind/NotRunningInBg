@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Aplikacje działające w tle"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Kliknij, by wyświetlić szczegóły
-		wykorzystania baterii i transmisji danych"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Kliknij, by wyświetlić szczegóły wykorzystania baterii i transmisji danych"
 	</string>
 </resources>
