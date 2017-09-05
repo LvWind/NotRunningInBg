@@ -23,10 +23,10 @@ import android.app.Notification
 import android.service.notification.NotificationListenerService
 import android.service.notification.StatusBarNotification
 import android.util.Log
+import com.lvwind.kashi.TAG
 
 class NotifyListenerService : NotificationListenerService() {
     companion object {
-        val TAG = "NotifyListenerService"
         val DURATION: Long = 86400000 //a day
     }
 

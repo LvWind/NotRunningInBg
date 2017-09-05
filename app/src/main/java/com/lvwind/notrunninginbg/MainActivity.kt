@@ -30,6 +30,7 @@ import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.lvwind.kashi.getColorById
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -74,7 +75,7 @@ class MainActivity : Activity() {
         if (id == R.id.action_about) {
             val url = "https://github.com/LvWind/NotRunningInBg/blob/master/README.md#notrunninginbg"
             val builder = CustomTabsIntent.Builder()
-                    .setToolbarColor(resources.getColor(R.color.colorPrimary))
+                    .setToolbarColor(getColorById(R.color.colorPrimary))
             val customTabsIntent = builder.build()
             customTabsIntent.launchUrl(this, Uri.parse(url))
 
