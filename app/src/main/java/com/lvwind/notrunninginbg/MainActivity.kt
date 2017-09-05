@@ -29,8 +29,13 @@ import android.support.customtabs.CustomTabsIntent
 import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
+import com.google.android.gms.ads.AdListener
+import com.google.android.gms.ads.AdRequest
 import com.lvwind.kashi.getColorById
+import com.lvwind.kashi.hide
+import com.lvwind.kashi.show
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -56,6 +61,7 @@ class MainActivity : Activity() {
             }
 
         }
+        initAd()
 
     }
 
@@ -120,6 +126,21 @@ class MainActivity : Activity() {
                 .setPositiveButton(android.R.string.ok, null)
                 .create()
         dialog.show()
+    }
+
+    private fun initAd() {
+        // Load an ad into the AdMob banner view.
+        adView.hide()
+        adView.adListener = object : AdListener() {
+            override fun onAdLoaded() {
+                adView.show()
+                super.onAdLoaded()
+            }
+        }
+        val adRequest = AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .setRequestAgent("android_studio:ad_template").build()
+        adView.loadAd(adRequest)
     }
 
 

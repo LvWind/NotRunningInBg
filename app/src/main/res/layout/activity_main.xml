@@ -21,7 +21,7 @@
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		xmlns:tools="http://schemas.android.com/tools"
 		android:layout_width="match_parent"
-		android:layout_height="match_parent"
+		android:layout_height="match_parent" xmlns:ads="http://schemas.android.com/apk/res-auto"
 		tools:context="com.lvwind.notrunninginbg.MainActivity">
 	<RelativeLayout
 			android:id="@+id/toggle_bar"
@@ -46,7 +46,8 @@
 	<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
 	                android:layout_below="@+id/toggle_bar"
 	                android:layout_alignParentStart="true" android:layout_marginStart="16dp"
-	                android:layout_marginEnd="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp">
+	                android:layout_marginEnd="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp"
+	                android:id="@+id/rv_guide">
 		<TextView android:layout_width="wrap_content"
 		          android:layout_height="wrap_content"
 		          android:text="@string/guide_manually_snooze"
@@ -60,5 +61,12 @@
 		           android:layout_below="@id/image_step1"
 		           android:id="@+id/image_step2"/>
 	</RelativeLayout>
+	<com.google.android.gms.ads.AdView android:layout_width="match_parent"
+	                                   android:layout_height="wrap_content"
+	                                   android:id="@+id/adView"
+	                                   android:layout_alignParentBottom="true"
+	                                   android:layout_alignParentStart="true"
+	                                   ads:adSize="SMART_BANNER"
+	                                   ads:adUnitId="@string/banner_ad_unit_id"/>
 
 </RelativeLayout>
