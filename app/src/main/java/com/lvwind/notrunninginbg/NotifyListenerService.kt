@@ -28,6 +28,7 @@ import com.lvwind.kashi.TAG
 class NotifyListenerService : NotificationListenerService() {
     companion object {
         val DURATION: Long = 86400000 //a day
+        val FOREGROUND_SERVICE = "FOREGROUND_SERVICE"
     }
 
     override fun onNotificationRemoved(sbn: StatusBarNotification?) {
@@ -39,15 +40,17 @@ class NotifyListenerService : NotificationListenerService() {
         val notificationPkg = sbn?.packageName
         val notificationTitle = extras?.getString(Notification.EXTRA_TITLE)
         val notificationText = extras?.getString(Notification.EXTRA_TEXT)
+
+        val channelId = sbn?.notification?.channelId
         if (BuildConfig.DEBUG) {
-            Log.i(TAG, "Notification posted $notificationPkg & $notificationTitle & $notificationText")
+            Log.i(TAG, "Notification posted by $notificationPkg in $channelId \n" +
+                    "Title: $notificationTitle \nText: $notificationText")
         }
 
         val enabled = PrefUtils.getBool(this, PrefUtils.KEY_ENABLED, false)
 
-        val msg = getString(R.string.running_foreground_services_msg)
         //the Android System's package name is 'android'. weird!
-        if (enabled and (notificationPkg == "android") and (msg == notificationText)) {
+        if (enabled and (notificationPkg == "android") and (channelId == FOREGROUND_SERVICE)) {
             this.snoozeNotification(sbn?.key, DURATION)
         } else {
             super.onNotificationPosted(sbn)

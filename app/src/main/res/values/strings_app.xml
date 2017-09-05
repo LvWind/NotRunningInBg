@@ -30,4 +30,5 @@
 	<string name="disable_dialog_message">Service disabled, You need to reboot your device to show the \'Running in the
 		background\' notification again.
 	</string>
+	<string name="banner_ad_unit_id">ca-app-pub-4629514208677941/3528137274</string>
 </resources>
