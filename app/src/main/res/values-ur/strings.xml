@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"ایپس پس منظر میں چل رہی ہیں"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"بیٹری اور ڈیٹا استعمال کے بارے میں
-		تفصیلات کے لیے تھپتھپائیں"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"بیٹری اور ڈیٹا استعمال کے بارے میں تفصیلات کے لیے تھپتھپائیں"
 	</string>
 </resources>

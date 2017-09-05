@@ -21,7 +21,6 @@
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Izinhlelo zokusebenza zisebenza
 		ngasemuva"
 	</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Thepha ngemininingwane ekusetshenzisweni
-		kwebhethri nedatha"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Thepha ngemininingwane ekusetshenzisweni kwebhethri nedatha"
 	</string>
 </resources>

@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"በጀርባ ውስጥ የሚያሄዱ መተግበሪያዎች"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"በባትሪ እና ውሂብ አጠቃቀም ላይ ዝርዝሮችን ለማግኘት መታ
-		ያድርጉ"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"በባትሪ እና ውሂብ አጠቃቀም ላይ ዝርዝሮችን ለማግኘት መታ ያድርጉ"
 	</string>
 </resources>

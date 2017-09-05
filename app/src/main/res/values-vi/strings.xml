@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Ứng dụng đang chạy trong nền"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Nhấn để biết chi tiết về mức sử dụng dữ
-		liệu và pin"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Nhấn để biết chi tiết về mức sử dụng dữ liệu và pin"
 	</string>
 </resources>

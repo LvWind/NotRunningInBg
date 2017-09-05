@@ -19,7 +19,6 @@
 
 <resources>
 	<string name="running_foreground_services_title" msgid="381024150898615683">"Fonda ishlayotgan ilovalar"</string>
-	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Batareya va trafik sarfi tafsilotlari
-		uchun ustiga bosing"
+	<string name="running_foreground_services_msg" msgid="6326247670075574355">"Batareya va trafik sarfi tafsilotlari uchun ustiga bosing"
 	</string>
 </resources>
