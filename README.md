@@ -1,6 +1,9 @@
-# NotRunningInBg
+# Not "Running in the backgound"
 
 <a href='https://play.google.com/store/apps/details?id=com.lvwind.notrunninginbg&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="150"/></a>
+
+<img src='https://raw.githubusercontent.com/LvWind/NotRunningInBg/master/art/screenshot.png' width="300"/>
+
 
 This is a tool that snoozes the "App is Running in the Background" notifications on Android Oreo.
 
