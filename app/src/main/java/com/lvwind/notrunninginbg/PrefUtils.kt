@@ -25,7 +25,7 @@ import android.preference.PreferenceManager
 object PrefUtils {
     val KEY_ENABLED = "enabled"
 
-    fun getString(context: Context, key: String, defValue: String): String {
+    fun getString(context: Context, key: String, defValue: String): String? {
         val pref = PreferenceManager.getDefaultSharedPreferences(context)
         return pref.getString(key, defValue)
     }
